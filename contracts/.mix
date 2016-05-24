@@ -18,8 +18,8 @@
 				{
 					"address": "38f388fadf4a6a35c61c3f88194ec5ae162c8944",
 					"balance": {
-						"unit": 12,
-						"value": "1000000"
+						"unit": 10,
+						"value": "1"
 					},
 					"name": "user1",
 					"secret": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074"
@@ -27,8 +27,8 @@
 				{
 					"address": "06400992be45bc64a52b5c55d3df84596d6cb4a1",
 					"balance": {
-						"unit": 12,
-						"value": "1000000"
+						"unit": 10,
+						"value": "1"
 					},
 					"name": "user2",
 					"secret": "db95780d2f30ca8211eec37cc110cc58a2d4f9308dea00ede6717a585efa2eb7"
@@ -36,8 +36,8 @@
 				{
 					"address": "fa4b795b491cc1975e89f3c78972c3e2e827c882",
 					"balance": {
-						"unit": 12,
-						"value": "1000000"
+						"unit": 10,
+						"value": "1"
 					},
 					"name": "user3",
 					"secret": "090f51d202f847d2468fc87fb06f92c469b8a1927b4aecea796b6831f1331382"
@@ -45,121 +45,8 @@
 				{
 					"address": "b0dcdc575ef06dc30aaea069d8043c9d463c931c",
 					"balance": {
-						"unit": 12,
-						"value": "1000000"
-					},
-					"name": "user4",
-					"secret": "e9bf58b523b4c94255cad51b3f7efdc85a0c970bf42f1d191c126bb6f49bfb9d"
-				}
-			],
-			"blocks": [
-				{
-					"hash": "",
-					"number": 1,
-					"status": "pending",
-					"transactions": [
-						{
-							"contractId": "ProjectToken",
-							"functionId": "ProjectToken",
-							"gas": {
-								"value": "250000"
-							},
-							"gasAuto": true,
-							"gasPrice": {
-								"unit": 18,
-								"value": "100000"
-							},
-							"isContractCreation": true,
-							"isFunctionCall": true,
-							"label": "Sample.Sample()",
-							"parameters": {
-								"v": 12
-							},
-							"saveStatus": true,
-							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
-							"value": {
-								"unit": 18,
-								"value": "0"
-							}
-						}
-					]
-				}
-			],
-			"contracts": [],
-			"miner": {
-				"address": "38f388fadf4a6a35c61c3f88194ec5ae162c8944",
-				"balance": {
-					"objectName": "",
-					"value": "1000000",
-					"unit": 12,
-					"value": "1000000",
-					"unit": 12
-				},
-				"name": "user1",
-				"secret": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074"
-			},
-			"title": "Default_1",
-			"transactions": [
-				{
-					"contractId": "ProjectToken",
-					"functionId": "ProjectToken",
-					"gas": {
-						"value": "250000"
-					},
-					"gasAuto": true,
-					"gasPrice": {
-						"unit": 18,
-						"value": "100000"
-					},
-					"isContractCreation": true,
-					"isFunctionCall": true,
-					"label": "Sample.Sample()",
-					"parameters": {
-						"v": 12
-					},
-					"saveStatus": true,
-					"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
-					"value": {
-						"unit": 18,
-						"value": "0"
-					}
-				}
-			]
-		},
-		{
-			"accounts": [
-				{
-					"address": "38f388fadf4a6a35c61c3f88194ec5ae162c8944",
-					"balance": {
-						"unit": 12,
-						"value": "1000000"
-					},
-					"name": "user1",
-					"secret": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074"
-				},
-				{
-					"address": "06400992be45bc64a52b5c55d3df84596d6cb4a1",
-					"balance": {
-						"unit": 12,
-						"value": "1000000"
-					},
-					"name": "user2",
-					"secret": "db95780d2f30ca8211eec37cc110cc58a2d4f9308dea00ede6717a585efa2eb7"
-				},
-				{
-					"address": "fa4b795b491cc1975e89f3c78972c3e2e827c882",
-					"balance": {
-						"unit": 12,
-						"value": "1000000"
-					},
-					"name": "user3",
-					"secret": "090f51d202f847d2468fc87fb06f92c469b8a1927b4aecea796b6831f1331382"
-				},
-				{
-					"address": "b0dcdc575ef06dc30aaea069d8043c9d463c931c",
-					"balance": {
-						"unit": 12,
-						"value": "1000000"
+						"unit": 10,
+						"value": "1"
 					},
 					"name": "user4",
 					"secret": "e9bf58b523b4c94255cad51b3f7efdc85a0c970bf42f1d191c126bb6f49bfb9d"
@@ -175,7 +62,7 @@
 							"contractId": "ProjectToken",
 							"functionId": "ProjectToken",
 							"gas": {
-								"value": "250000"
+								"value": "713020"
 							},
 							"gasAuto": true,
 							"gasPrice": {
@@ -187,9 +74,135 @@
 							"label": "ProjectToken.ProjectToken()",
 							"parameters": {
 								"initialSupply": "10",
-								"tokenName": "Test Project Token",
+								"tokenName": "Project Token",
 								"decimalUnits": "0",
 								"tokenSymbol": "T"
+							},
+							"saveStatus": true,
+							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
+							"value": {
+								"unit": 18,
+								"value": "0"
+							}
+						}
+					]
+				},
+				{
+					"hash": "",
+					"number": 2,
+					"status": "mined",
+					"transactions": [
+						{
+							"contractId": "<ProjectToken - 0>",
+							"functionId": "transfer",
+							"gas": {
+								"value": "35853"
+							},
+							"gasAuto": true,
+							"gasPrice": {
+								"unit": 18,
+								"value": "100000"
+							},
+							"isContractCreation": false,
+							"isFunctionCall": true,
+							"label": "<ProjectToken - 0>.transfer()",
+							"parameters": {
+								"_to": "0x06400992be45bc64a52b5c55d3df84596d6cb4a1",
+								"_value": "10"
+							},
+							"saveStatus": true,
+							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
+							"value": {
+								"unit": 18,
+								"value": "0"
+							}
+						}
+					]
+				},
+				{
+					"hash": "",
+					"number": 3,
+					"status": "mined",
+					"transactions": [
+						{
+							"contractId": "<ProjectToken - 0>",
+							"functionId": "balanceOf",
+							"gas": {
+								"value": "23093"
+							},
+							"gasAuto": true,
+							"gasPrice": {
+								"unit": 18,
+								"value": "100000"
+							},
+							"isContractCreation": false,
+							"isFunctionCall": true,
+							"label": "<ProjectToken - 0>.balanceOf()",
+							"parameters": {
+								"": "0x06400992be45bc64a52b5c55d3df84596d6cb4a1"
+							},
+							"saveStatus": true,
+							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
+							"value": {
+								"unit": 18,
+								"value": "0"
+							}
+						}
+					]
+				},
+				{
+					"hash": "",
+					"number": 4,
+					"status": "mined",
+					"transactions": [
+						{
+							"contractId": "<ProjectToken - 0>",
+							"functionId": "mintToken",
+							"gas": {
+								"value": "250000"
+							},
+							"gasAuto": true,
+							"gasPrice": {
+								"unit": 18,
+								"value": "100000"
+							},
+							"isContractCreation": false,
+							"isFunctionCall": true,
+							"label": "ProjectToken.mintToken()",
+							"parameters": {
+								"target": "0x06400992be45bc64a52b5c55d3df84596d6cb4a1",
+								"mintedAmount": "1"
+							},
+							"saveStatus": true,
+							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
+							"value": {
+								"unit": 18,
+								"value": "0"
+							}
+						}
+					]
+				},
+				{
+					"hash": "",
+					"number": 5,
+					"status": "mined",
+					"transactions": [
+						{
+							"contractId": "<ProjectToken - 0>",
+							"functionId": "balanceOf",
+							"gas": {
+								"value": "23093"
+							},
+							"gasAuto": true,
+							"gasPrice": {
+								"unit": 18,
+								"value": "100000"
+							},
+							"isContractCreation": false,
+							"isFunctionCall": true,
+							"label": "<ProjectToken - 0>.balanceOf()",
+							"parameters": {
+								"": "0x06400992be45bc64a52b5c55d3df84596d6cb4a1"
 							},
 							"saveStatus": true,
 							"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
@@ -212,8 +225,6 @@
 				"address": "38f388fadf4a6a35c61c3f88194ec5ae162c8944",
 				"balance": {
 					"objectName": "",
-					"value": "1000000",
-					"unit": 12,
 					"value": "1000000",
 					"unit": 12
 				},
